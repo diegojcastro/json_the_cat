@@ -27,8 +27,8 @@ describe('fetchBreedDescription', () => {
       // Error is not null
       assert.notEqual(err, null);
 
-      done()
-    })
+      done();
+    });
   });
 
 
